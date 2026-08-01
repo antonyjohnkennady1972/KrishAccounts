@@ -1,0 +1,42 @@
+.commitment-icon {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color:#0056b3;
+  transition: transform 0.3s ease;
+}
+
+.commitment-card{
+    text-align:center;
+}
+
+.commitment-card h3{
+    margin-bottom:15px;
+}
+
+.commitment-card:hover .commitment-icon {
+  transform: scale(1.15);
+}
+
+.esg-icon {
+  color: #2e7d32;      /* Green */
+}
+
+.diversity-icon {
+  color: #8e24aa;      /* Purple */
+}
+
+.people-icon {
+  color: #f57c00;      /* Orange */
+}
+
+.business-icon {
+  color: #1565c0;      /* Blue */
+}
+
+.integrity-icon {
+  color: #c62828;      /* Red */
+}
+
+.independence-icon {
+  color: #00838f;      /* Teal */
+}
