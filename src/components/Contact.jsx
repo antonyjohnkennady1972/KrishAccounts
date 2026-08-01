@@ -1,6 +1,6 @@
 import img from "../assets/images/contact.jpg";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
-import "../styles/Contact.css";
+import "../styles/contact.css";
 
 function Contact() {
   return (
