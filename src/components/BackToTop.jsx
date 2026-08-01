@@ -13,13 +13,17 @@ function BackToTop() {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
 
+  const scrollToTop = () => {
+    location.href = "#home";
+  };
+  
   return (
     <>
       {visible && (
